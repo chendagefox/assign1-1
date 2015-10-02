@@ -26,7 +26,7 @@ void setup () {
   treasure = loadImage("img/treasure.png");
   // load image
   
-  hpy = floor(random(100)); 
+  hpy = floor(random(5,100)); 
   // random hp
   
   Tx = floor(random(620));
